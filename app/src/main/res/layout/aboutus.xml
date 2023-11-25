@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/aboutus"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/blue">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:id="@+id/abouttohome"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="15dp"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bluejack Pharmacy"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Is a trusted and reliable healthcare company dedicated to providing high-quality and affordable prescription drugs, over-the-counter medications, and healthcare products to our valued customers. Our mission is to ensure that our customers receive the best possible care and service by providing them with access to a wide range of products and services."
+        android:textSize="22sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_marginTop="4sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"/>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="12dp"
+    app:cardElevation="25dp"
+    app:cardBackgroundColor="@color/blue"
+    android:layout_height="120dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewOBHCombi"
+            android:layout_width="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/obhcombibatukflu"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/OBHCombiName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OBH Combi Batuk plus Flu 100ml"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/OBHCombiManufacture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PT.Combiphar"
+                android:textSize="18dp"
+                android:textStyle="normal"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/OBHCombiPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$7.0"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
